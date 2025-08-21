@@ -25,6 +25,16 @@ margin-top: 300px;
 
 
 }
+#broom{
+text-align: center;
+display: flexbox;
+padding: 40px;
+border: 3px solid greenyellow;
+border-radius: 130px;
+width:80%;
+padding-right:20px;
+
+}
 .pic{
     width       :100%;
     height      :100% ;
@@ -47,12 +57,15 @@ margin-top: 300px;
     text-align: center;
     border: 8px solid yellowgreen;
     border-radius: 10px;
-    height: 400px;
+    height: 900px;
+    gap:500px;
+    
+    
 }
 .hh3{
     border: 3px solid yellowgreen;
     border-radius: 7px;
-    width:50%;
+    width:40%;
     display:inline-block;
     padding:5px 10px;
 
@@ -65,16 +78,20 @@ margin-top: 300px;
 #off1{
     width:100%;
     overflow:auto;
+    height:400px;
+    justify-content: center;
+    gap:30px;
 }
 #off1, #off2{
     float:left;
-    width: 25%;
+    width: 30%;
     margin:2%;
     border:2px solid yellowgreen;
     box-sizing:border-box;
     padding: 15px;
     border-radius: 7px;
     height: 300px;
+    
 
 }
 
