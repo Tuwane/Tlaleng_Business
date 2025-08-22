@@ -1,53 +1,71 @@
 #heading{
 text-align	:center;
 border-radius			:10px ;
-color			:blue;
+color			:rgb(98, 0, 255);
 background-color	:lightblue;
 height			:300px;
 margin :30px;
 margin-bottom: 300px;
 
 }
+.profi {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -270px;
+    margin-bottom:auto;
+    width:30%;
+    
+}
+#headd{
+    width:100%;
+    height: 60px;
+    border: 1px solid greenyellow;
+    border-radius: 6px;
+    background-color:aquamarine;
+    z-index: 500;
+    top: 0;
+    position:fixed;
+    
+
+}
+#headd .cl{
+    font-size: large;
+    font-weight: 200;
+    color:blueviolet;
+    font-family:  'family';
+    text-align: center;
+
+}
 #upmenu{
-position: fixed;
-top:0;
-left:-10px;
-z-index : 600;
-width:100%;
-height: 60px;
-background-color:bisque;
-padding:10px;
-padding-bottom :10px;
-margin:0px;
+    border: 2px solid rgb(220, 47, 255);
+    padding: 30px;
+    margin: 40px;
+    text-align:center;
+    border-radius: 10px;
+    height: 20px;
+    
+    
+
 
 }
 #upmenu a{
-    float:right;
+text-decoration: none;
+font-size: large;
+padding: 15px;
+border: 2px solid rgb(135, 187, 222);
+border-radius: 10px ;
 
-    display: block;
-    width:7%;
-    height:33px;
-    font-weight: 800;
-    color:cornflowerblue;
-    text-align:center;
-    text-decoration: none;
-    padding: 7px;
-    border:2px solid rgb(0, 225, 255);
-    border-radius: 20px;
-    margin:9px;
-    top:-70px;
-    position:relative;
-    margin-top: 3px;
 }
+
 #upmenu a:hover{
     background-color: rgb(232, 255, 196);
-    padding: 4px;
     height: 35px;
   
    
 
 }
- #upmenu .cl{
+  #body_all.cl{
     color:rgba(144, 43, 226, 0.322);
     display:block;
      border: 2px solid #ff2fa82a;  
@@ -96,7 +114,8 @@ width:90%;
     height      :100% ;
     border      :2px solid blueviolet;
     background-color: rgb(255, 123, 0);
-    margin-top: -20px;
+    margin-top: -50px;
+    display: block;
 }
 #body_all{
     border : 80px solid rgb(43, 226, 186);
