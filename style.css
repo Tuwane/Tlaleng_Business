@@ -11,11 +11,14 @@ margin-bottom: 300px;
 #upmenu{
 position: fixed;
 top:0;
-left:0;
+left:-10px;
 z-index : 600;
 width:100%;
-height: 50px;
+height: 60px;
 background-color:bisque;
+padding:10px;
+padding-bottom :10px;
+margin:0px;
 
 }
 #upmenu a{
@@ -28,12 +31,13 @@ background-color:bisque;
     color:cornflowerblue;
     text-align:center;
     text-decoration: none;
-    padding: 3px;
+    padding: 7px;
     border:2px solid rgb(0, 225, 255);
     border-radius: 20px;
     margin:9px;
     top:-70px;
     position:relative;
+    margin-top: 3px;
 }
 #upmenu a:hover{
     background-color: rgb(232, 255, 196);
@@ -53,7 +57,7 @@ background-color:bisque;
      font-size:medium;
      font-weight: 400;
      font-family: cursive;
-     
+     padding: 3px;
 
 }
 .cl p{
