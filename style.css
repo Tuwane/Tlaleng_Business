@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
 #heading{
 text-align	:center;
 border-radius			:10px ;
@@ -50,6 +54,7 @@ margin-bottom: 300px;
     margin: 10px;
     margin-left:0;
     
+    
 
 
 }
@@ -59,7 +64,8 @@ display:block;
 width: 150px;
 text-align: center;
 text-decoration: none;
-padding: 7px;
+padding: 7px 10px ;
+justify-content: center;
 
 
 }
