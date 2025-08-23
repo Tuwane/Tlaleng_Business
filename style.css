@@ -38,29 +38,35 @@ margin-bottom: 300px;
 
 }
 #upmenu{
-    border: 2px solid rgb(220, 47, 255);
-    padding: 30px;
-    margin: 40px;
-    text-align:center;
-    border-radius: 10px;
-    height: 20px;
-    
+    left:0;
+    display:flex;
+    width:98%;
+    height: 40px;
+    background-color: aqua;
+    border: 4px solid rgb(127, 255, 133);
+    border-radius: 8px;
+    padding-top:10px;
+    padding: 6px;
+    margin: 10px;
+    margin-left:0;
     
 
 
 }
 #upmenu a{
+text-align: left;
+display:block;
+width: 150px;
+text-align: center;
 text-decoration: none;
-font-size: large;
-padding: 15px;
-border: 2px solid rgb(135, 187, 222);
-border-radius: 10px ;
+padding: 7px;
+
 
 }
 
 #upmenu a:hover{
     background-color: rgb(232, 255, 196);
-    height: 35px;
+    height: 27px;
   
    
 
@@ -92,8 +98,9 @@ border-radius: 10px ;
 
 
 #bottom{
-border			:5px solid black;
-color			:blue;
+
+border			:   5px solid black;
+color			:   blue;
 background-color	:lightblue;
 height			:400px;
 margin: 10px;
