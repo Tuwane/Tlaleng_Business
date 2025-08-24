@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tlaleng cleaning service">
-    <meta name="keywords" content="HTML, CSS, JavaScript, cleaning site">
-    <meta name="author" content="Avenir Ptrimony(Developed by Mohapi Mofokeng)">
-
-<title>Avenir Patrimony</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div id="headd">
-    <h1 class="cl">WE AT YOUR SERVICE</h1>
-    </div>
-    <div id="body_all">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tlaleng cleaning service">
+        <meta name="keywords" content="HTML, CSS, JavaScript, cleaning site">
+        <meta name="author" content="Avenir Ptrimony(Developed by Mohapi Mofokeng)">
+        
+        <title>Avenir Patrimony</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="headd">
+            <h1 class="cl">WE AT YOUR SERVICE</h1>
+        </div>
+        <div id="body_all">
+        <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 <div id="heading">
     <h1>Professional</h1>
 <h1>Cleaning Services</h1>
@@ -23,7 +29,6 @@
 </div>
 
     <img src="images/profi.png" class="profi">
-
 <div id="upmenu">
         <a href="about.html">About</a>
         <a href="contact.html">Contact Us</a>
@@ -70,6 +75,11 @@
 </div>
 </div>
 </div>
+<script>
+    function togglemenu(){
+    document.getElementById("upmenu").classList.toggle("active");
+    }
+</script>
 </body>
 </html>
 
