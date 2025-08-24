@@ -11,6 +11,13 @@ background-color	:lightblue;
 height			:300px;
 margin :30px;
 margin-bottom: 300px;
+text-align: center;
+padding: 18px;
+
+}
+#heading_in{
+    margin: 20px;
+    padding: 10px;
 
 }
 .profi {
@@ -209,6 +216,7 @@ width:90%;
     width:40%;
     display:inline-block;
     padding:5px 10px;
+    
 
 }
 
