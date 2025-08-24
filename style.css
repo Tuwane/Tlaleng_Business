@@ -281,3 +281,25 @@ width:90%;
         display:block;
     }
 }
+/*Mobile on navMenu*/
+#navMenu {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width:760) {
+    .menu-toggle {
+        display: flex;
+    }
+
+
+#navMenu{
+    display:none;
+    flex-direction: column;
+    background:#f4f4f4;
+    padding: 10px;
+}
+    #navMenu.active{
+        display: flex;
+    }
+}
