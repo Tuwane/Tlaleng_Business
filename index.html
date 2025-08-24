@@ -15,8 +15,10 @@
             <h1 class="cl">WE AT YOUR SERVICE</h1>
         </div>
         <div id="body_all">
+            <!--Humburger button-->
+            
             <div class="menu-wrapper">
-                <button class="menu-toggle" onclick="toggleMenu()">
+                <button class="menu-toggle" onclick="toggleMenu()">Menu
                     <span></span>
                     <span></span>
                     <span></span>
@@ -35,6 +37,8 @@
 </div>
 </div>
 <div id="upmenu">
+    <!--Navition Menu-->
+    <nav id="navMenu">
         <a href="about.html">About</a>
         <a href="contact.html">Contact Us</a>
         <a href="vision.html">Vision</a>
@@ -42,6 +46,7 @@
         <a href="working.html">Why work with us</a>
         <a href="provision.html">Provision</a>
         <a href="offer.html">What we offer</a>
+        </nav>
     </div>
 <img class ="pic" src="images/front.png">
     <h1>Testing the code</h1>
@@ -83,7 +88,7 @@
 <script>
     function toggleMenu(){
         
-        document.getElementById("upmenu").classList.toggle("active");
+        document.getElementById("navMenu").classList.toggle("active");
     }
 </script>
 </body>

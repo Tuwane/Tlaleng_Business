@@ -94,18 +94,19 @@ color:rgb(238, 255, 0);
 font-weight:bold;
 
 }
-.menu-toggle{
-display:none;
+#body_all .menu-toggle{
+display:flex;
 flex-direction: column;
 justify-content: space-between;
-width: 60px;
-height: 80px;
+width: 30px;
+height: 40px;
 background: none;
 border:none;
 cursor:pointer;
 padding: 0px;
 
-z-index:100;
+
+
 
 }
 .menu-wrapper{
@@ -267,4 +268,15 @@ width:90%;
 #off1 h4, #off2 h3{
     text-align: center;
     margin-bottom: 10px;
+}
+#navMenu{
+    display:none;
+}
+@media (max_width:768px) {
+    #navMenu {
+        display:none;
+    }
+    #navMenu.active {
+        display:block;
+    }
 }
