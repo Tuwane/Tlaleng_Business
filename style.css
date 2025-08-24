@@ -32,7 +32,8 @@ padding: 18px;
 }
 .profi {
     width: 200px;
-    height: 250px;
+    height: 200px;
+    margin: 60px;
     
 }
 @media(max_width:600px){
