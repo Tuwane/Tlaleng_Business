@@ -36,7 +36,7 @@ padding: 18px;
     margin: 60px;
     
 }
-@media(max_width:600px){
+@media (max_width:600px){
     #profi{
         display: flex;
         justify-content: center;
@@ -269,18 +269,8 @@ width:90%;
     text-align: center;
     margin-bottom: 10px;
 }
-#navMenu{
-    display:block;
-}
 /*Mobile:menu hidden until toggle */
-@media (max_width:768px) {
-    #navMenu {
-        display:none;
-    }
-    #navMenu.active {
-        display:block;
-    }
-}
+
 /*Desktop on navMenu*/
 #navMenu {
     display: flex;
