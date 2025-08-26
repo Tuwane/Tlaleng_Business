@@ -87,6 +87,31 @@ padding: 18px;
     padding:10px;
     margin: 2%;
     
+    
+}
+#mMenu a{
+    padding: 25px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(238, 253, 0)
+
+}
+#mMenu{
+    display:fex;
+    background: #e10dfd;
+    padding: 55px;
+    gap: 20px;
+    justify-content: center;
+    padding:100px;
+    padding-bottom: 20px;
+    margin: 0px;
+    position: fixed;
+    width:80%;
+    padding-right: 60px;
+    padding-bottom:20px;
+
 }
 #upmenu a{
 text-decoration: none;
