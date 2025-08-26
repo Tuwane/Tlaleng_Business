@@ -108,7 +108,7 @@ padding: 18px;
     margin: 0px;
     position: fixed;
     width:100%;
-    padding: 0px;
+    padding: 1px;
     
 
 }
@@ -116,6 +116,7 @@ padding: 18px;
 text-decoration: none;
 color:rgb(238, 255, 0);
 font-weight:bold;
+
 
 }
 .menu-toggle{
