@@ -214,19 +214,21 @@ border-radius: 130px;
 width:90%;
 
 }
-#pic-box{
-    display: contents;
+#pic-box .pic{
+    position: relative;
+    top:-260px;
 }
 .pic{
-    width       :50%;
+    width       :100%;
     height      :10% ;
     border      :2px solid blueviolet;
     background-color: rgb(255, 123, 0);
-     display: flex;
-     margin-bottom: 600px;
+    
+    
+    
 }
 .pic img{
-    height:40%;
+    
 }
 #body_all{
     border : 80px solid rgb(43, 226, 186);
