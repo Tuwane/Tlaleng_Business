@@ -4,18 +4,6 @@ body{
 
 }
 
-#heading{
-text-align	:center;
-border-radius			:10px ;
-color			:rgb(98, 0, 255);
-background-color	:lightblue;
-height			:300px;
-margin :30px;
-margin-bottom: 300px;
-text-align: center;
-padding: 18px;
-
-}
 #heading_in{
     margin: 20px;
     padding: 10px;
