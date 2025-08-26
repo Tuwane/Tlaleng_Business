@@ -23,8 +23,8 @@ padding: 18px;
 }
 #profi{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:left;
+
     
 }
 #prof img{
@@ -41,7 +41,9 @@ padding: 18px;
         display: flex;
         justify-content: center;
         align-items:center;
+        margin-top:-20px;
     }
+    
 }
 #headd{
     width:100%;
@@ -90,6 +92,7 @@ padding: 18px;
     
 }
 #mMenu a{
+    float:right;
     padding: 10px;
     margin: 15px;
     text-align: center;
