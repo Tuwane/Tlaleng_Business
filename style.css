@@ -86,7 +86,7 @@ padding: 18px;
     justify-content: center;
     gap:20px;
     background: #e10dfd;
-    padding:1px;
+    padding:3px;
     margin: 2%;
     
     
@@ -102,13 +102,13 @@ padding: 18px;
 
 }
 #mMenu{
-    display:fex;
+    display:flex;
     background: #e10dfd;
-    justify-content: center;
+    justify-content: right;
     margin: 0px;
     position: fixed;
     width:100%;
-    padding: 8px;
+    padding: 0px;
     
 
 }
