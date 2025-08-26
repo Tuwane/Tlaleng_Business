@@ -101,16 +101,12 @@ padding: 18px;
 #mMenu{
     display:fex;
     background: #e10dfd;
-    padding: 55px;
-    gap: 20px;
     justify-content: center;
-    padding:100px;
-    padding-bottom: 20px;
     margin: 0px;
     position: fixed;
-    width:80%;
-    padding-right: 60px;
-    padding-bottom:20px;
+    width:100%;
+    padding: 8px;
+    
 
 }
 #upmenu a{
