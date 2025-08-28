@@ -38,7 +38,7 @@ body{
     height: 60px;
     border: 1px solid greenyellow;
     border-radius: 6px;
-    background-color:aquamarine;
+    background-color:rgb(127, 204, 255);
     z-index: 500;
     top: 0;
     position:fixed;
@@ -233,9 +233,10 @@ width:90%;
     margin: -200px;
 
 }
+/*===============all-body================*/
 #body_all{
     border : 80px solid rgb(43, 226, 186);
-    background-color: aquamarine;
+    background-color:rgba(0, 128, 0, 0.801);
     border-radius: 10px;
 }
 #bottom h3{
