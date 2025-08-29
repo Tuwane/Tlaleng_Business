@@ -228,9 +228,23 @@ width:90%;
 }
 /*=================slog=============*/
 #slog{
+    display:flex;
     margin: auto;
-    text-align: center;
-    margin: -200px;
+    justify-content: center;
+    font-family:Verdana, sans-serif;
+    border:3px solid rgb(78, 97, 9);
+    align-items: center;
+    margin-top:-220px;
+    margin-bottom:-240px;
+    width: 700px;
+    border-radius: 15px;
+}
+.headingC h1{
+    font-size:3rem;
+    font-weight:bold;
+    font-style: italic;
+    color:rgb(13, 78, 87)
+
 
 }
 /*===============all-body================*/
@@ -267,8 +281,8 @@ width:90%;
 }
 
 .pic{
-    border:3px solid greenyellow;
-    border-radius:50px;
+    border:13px solid greenyellow;
+    border-radius:10px;
     margin-top:300px;
     padding-top: 0px;
 }
